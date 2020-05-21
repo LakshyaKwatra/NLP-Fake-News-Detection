@@ -23,7 +23,8 @@ Multinomial Naive Bayes
 # INSTRUCTIONS:
 VERSION: Python 3.7.3 
 FORMAT: The code is shared as a Jupyter Notebook in .ipynb format. So you need to have jupyter notebook installed.
->Windows: pip install jupyter
+Windows: 
+>pip install jupyter
 
 # FILES:
 VIEW_CODE.ipynb -> Contains fully commented code in a 'single cell' for better readability. Needs to be opened with Jupyter Notebook

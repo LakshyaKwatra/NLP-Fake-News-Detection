@@ -2,7 +2,7 @@
 HIGHEST ACCURACY ACHIEVED: > Binary-> 0.62	Model: SVM
                   			   > Six-way-> 0.25     Model: SVM
           
-#APPROACH 
+# APPROACH: 
 I started with the data exploration and analysis using seaborn to check for the correlations between the data and then i tried to extract some other features like length of the statement, numerical count in the statement,etc. 
 I decided to focus on the statement and not on the justification. Then I dealt with the missing data. 
 
@@ -14,23 +14,23 @@ Then I checked the classification report and confusion matrix of each model to f
 The SVM model was giving the best accuracy (Binary: 62%, Six-way: 25%) when its 'C' and 'gamma' parameters were adjusted
 with GridSearchCV (This takes some time to run depending on the computer speed).
  
-#MODELS I TRIED OUT 
+# MODELS I TRIED OUT: 
 Logistic Regression
 SVM*
 Random Forest 
 Multinomial Naive Bayes
 
-#INSTRUCTIONS:
+# INSTRUCTIONS:
 VERSION: Python 3.7.3 
 FORMAT: The code is shared as a Jupyter Notebook in .ipynb format.
 	      So you need to have jupyter notebook installed.
 	      Windows: pip install jupyter
-#FILES
+# FILES:
 VIEW_CODE.ipynb -> Contains fully commented code in a 'single cell' for better readability. Needs to be opened with Jupyter Notebook
 RUN_CODE.ipynb** -> Contains the code segmented in different cells with the output of every cell. This demonstrates the working of my code.
   Need to be opened with Jupyter Notebook.   
 
-#LIBRARIES 
+# LIBRARIES: 
 The Following Python Libraries need to be installed ->
 numpy
 pandas
@@ -39,7 +39,7 @@ seaborn
 nltk    
 sklearn
  
-#OTHER DETAILS: 
+# OTHER DETAILS: 
 nltk 'stopwords' is required which has been downloaded in the code itself with the nltk.download('stopwords') command present in the notebook after the imports.
 Any cell in the notebook can be run by pressing 'Shift+Enter'.
 The SVM model's pipeline takes quite some time to fit because of the Grid Search for the best parameters 'C' and 'gamma'. 

@@ -22,21 +22,21 @@ Multinomial Naive Bayes
 
 # INSTRUCTIONS:
 VERSION: Python 3.7.3 
-FORMAT: The code is shared as a Jupyter Notebook in .ipynb format.
-	      So you need to have jupyter notebook installed.
-	      Windows: pip install jupyter
+FORMAT: The code is shared as a Jupyter Notebook in .ipynb format. So you need to have jupyter notebook installed.
+>Windows: pip install jupyter
+
 # FILES:
 VIEW_CODE.ipynb -> Contains fully commented code in a 'single cell' for better readability. Needs to be opened with Jupyter Notebook
 RUN_CODE.ipynb** -> Contains the code segmented in different cells with the output of every cell. This demonstrates the working of my code.
-  Need to be opened with Jupyter Notebook.   
+Need to be opened with Jupyter Notebook.   
 
 # LIBRARIES: 
-The Following Python Libraries need to be installed ->
-numpy
-pandas
-matplotlib.pyplot
-seaborn
-nltk    
+The Following Python Libraries need to be installed:
+numpy, 
+pandas, 
+matplotlib.pyplot, 
+seaborn, 
+nltk,     
 sklearn
  
 # OTHER DETAILS: 
